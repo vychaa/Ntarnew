@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .footer-text-title{
     display: flex;
     justify-content: center;
@@ -12,4 +15,101 @@
 
 .footer-main-text{
     color: #f9e400;
+    font-family: "Youth";
+    font-size: 88px;
+    font-weight: 500;
 }
+.container-footer{
+background-color: #3103EB;
+}
+.footer-social{
+    margin-left: 100px;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card {
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  .cards-container2{
+    flex-direction: row;
+    align-items: center;
+  }
+  .cards-container-sub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+ border-top:1px solid  #fff;
+  }
+  .explorearrow{
+    width:22px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  
+.qr-code {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+  
+  .store-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .qr-contaier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grey-box {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .store-img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+    .cards-container-sub {
+      grid-template-columns: 1fr;
+    }
+    .cards-container-sub {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+@media (max-width: 480px) {
+    .cards-container-sub {
+      grid-template-columns: 1fr;
+    }
+  }

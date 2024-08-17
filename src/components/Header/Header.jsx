@@ -4,7 +4,6 @@ import logo from "../../assets/images/mainlogo.png";
 import whitebgarrow from "..//../assets/images/whitebackarrows.png";
 import addimage from '../../assets/images/add.png'
 import tstore from '../../assets/images/atstore.png'
-import Footer from "../Footer/Footer";
 
 const Header = () => {
   return (
@@ -140,17 +139,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-
-
-
-      {/* remove this and add body here */}
-      <div style={{height: '60vh'}}></div>
-
-
-
-      {/* footer */}
-      <Footer/>
-
     </>
   );
 };

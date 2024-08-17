@@ -26,7 +26,7 @@
   text-align: center;
   font-family: "Youth", sans-serif;
   line-height: 53px;
-  margin-top: 200px;
+  margin-top: 80px;
   }
   
   /* Section for NTAR content */
@@ -185,6 +185,12 @@ width: 500px;
 transform: scaleX(-1);
 
   }
+  .manScrollingCoinLeft{
+    object-fit: contain;
+    width: 500px;
+    
+      }
+  
   .inside-img-text{
     font-size: 36px; /* Adjust the font size as needed */
     font-weight: bold; /* Makes the text bold */
