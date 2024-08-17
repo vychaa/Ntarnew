@@ -1,0 +1,15 @@
+.footer-text-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Youth;
+    font-size: 88.37px;
+    font-weight: 500;
+    line-height: 89.95px;
+    letter-spacing: -0.8994791507720947px;
+    text-align: center;
+}
+
+.footer-main-text{
+    color: #f9e400;
+}
