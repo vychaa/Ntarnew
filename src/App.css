@@ -1,42 +1,56 @@
+
+@font-face {
+  font-family: "Youth";
+  src: url("./assets/fonts/AllCaps\ -\ Youth\ Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YouthBold";
+  src: local("YouthBold"),
+    url("./assets/fonts/AllCaps\ -\ Youth\ Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BananaGroteskRegular";
+  src: local("BananaGroteskRegular"),
+       url("./assets/fonts/banana-grotesk-regular.otf") format("opentype");
+  font-weight: normal; /* Adjust if needed */
+  font-style: normal;  /* Adjust if needed */
+}
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0px;
   text-align: center;
+  box-sizing: border-box;
+  font-family: "Youth";
+  color:'#fff'
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+
+@font-face {
+  font-family: "Youth";
+  src: url("./assets/fonts/AllCaps\ -\ Youth\ Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "YouthBold";
+  src: local("YouthBold"),
+    url("./assets/fonts/AllCaps\ -\ Youth\ Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@font-face {
+  font-family: "BananaGroteskRegular";
+  src: local("BananaGroteskRegular"),
+       url("./assets/fonts/banana-grotesk-regular.otf") format("opentype");
+  font-weight: normal; /* Adjust if needed */
+  font-style: normal;  /* Adjust if needed */
 }

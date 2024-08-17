@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap");
+@font-face {
+    font-family: 'Youth';
+    src: url('@fonts/Youth.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'youth_bold';
+    src: url('@fonts/youth_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+  margin: 0;
+  font-family: "Youth", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
