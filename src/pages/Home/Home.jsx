@@ -14,7 +14,7 @@ import { finance_items } from "./JsonData";
 import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Carousel from "../../components/Carousel/Carousel.jsx";
-// import finance_items from './JsonData.jsx'
+import {features_list} from './JsonData.jsx'
 
 const Home = () => {
   return (
@@ -117,7 +117,7 @@ const Home = () => {
           <div className="payments_sub">
             <span className="your_finance">Perfect Features for You!</span>
             <div className="your_finance_container">
-              {finance_items.map((each) => {
+              {features_list.map((each) => {
                 return (
                   <div className="your_finance_item" id={each.title}>
                     <img
