@@ -1,0 +1,62 @@
+/* Carousel.css */
+.carousel-container {
+  width: 100%;
+  max-width: 600px; /* Adjust this as needed */
+  margin: 0 auto;
+  position: relative;
+  padding: 100px 0px;
+}
+
+.slide {
+  position: relative;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 20px; /* Adjust this value to control vertical positioning */
+  left: 20px; /* Adjust this value to control horizontal positioning */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners for the text box */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Font weight */
+}
+
+.arrow {
+  font-size: 24px;
+  color: #000; /* Adjust color as needed */
+  background: rgba(255, 255, 255, 0.7); /* Optional background */
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  bottom: -100px;
+  transform: translateY(-50%);
+  padding: 20px 0px;
+}
+
+.arrow:hover{
+  background-color: blue !important;
+  color: #ffffff;
+}
+
+.arrow-next {
+  right: 10px; /* Adjust position as needed */
+}
+
+.arrow-prev {
+  left: 10px; /* Adjust position as needed */
+}

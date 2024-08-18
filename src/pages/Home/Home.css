@@ -272,3 +272,318 @@ position: relative;
 @media only screen and (min-width: 1200px) {
   
 }
+
+
+.contentboxwhite-5 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: "Youth";
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  /* .sectioncard {
+    width: 95%;
+    max-width: 90%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+  } */
+  .card {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .grey-box {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .comingsoon-section {
+    background-color: #f9e400;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 20px;
+    z-index: 5;
+  }
+  
+  .comingsoon-text-section {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    font-family: "Banana grotesk";
+  }
+  
+  .sectioncard {
+    width: 85%;
+    max-width: 85%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    column-gap: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .section-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40;
+    margin: 30px;
+  }
+  
+  .treeicon {
+    width: 12%;
+  }
+  .ntarsmallgif {
+    width: 20%;
+    margin: -30px;
+  }
+  .moneygrow {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Youth";
+    color: white;
+  }
+  
+  .pots {
+    position: absolute;
+    top: 16%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 10;
+    font-family: "Banana grotesk";
+  }
+  .create-custom {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-weight: 400;
+    font-size: 12px;
+    width: 48%;
+    font-family: "Banana grotesk";
+  }
+  .scroll-section-ex-button-2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 20%;
+    margin-right: 0%;
+  }
+  .middle-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+.contentboxblack-7 {
+    background: black;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+  }
+  
+  .white-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin: -4%;
+    font-family: "Youth";
+  }
+  
+  .ntar-begins2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -2%;
+    margin-left: -3%;
+    font-family: "Youth";
+  }
+  
+  .money-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .money {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: -4%;
+    font-family: "Youth";
+  }
+  
+  .magic {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: -4%;
+    font-family: "Youth";
+  }
+  
+  .gif-yellow {
+    width: 25%;
+    max-width: 250px;
+  }
+  
+  .ntarway {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -4%;
+    margin-left: -4%;
+  }
+  
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+  
+  .whitearrow {
+    width: 12%;
+  }
+  
+  .float-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .black-w-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.contentboxorange-6 {
+    background: #ff5613;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+  }
+  
+  .orgphone {
+    width: 15%;
+    margin-left: 5%;
+  }
+  
+  .org-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10%;
+  }
+  .org-text {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: "Youth";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .letsbutton {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Youth";
+  }
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+  
+  .whitearrow {
+    width: 12%;
+  }
