@@ -32,3 +32,37 @@ export const  finance_items=[
         "subtext": "Scan and pay effortlessly with NTAR's QR feature."
     }
 ]
+
+export const  features_list=[
+    {
+        "icon": payBills,
+        "title": "Split the Damn Bill",
+        "subtext": "Easily divide expenses with friends and settle up without the hassle"
+    },
+    {
+        "icon": payBills,
+        "title": "Shared Bill Reminder",
+        "subtext": "Never miss a payment and stay organized with ease."
+    },
+    {
+        "icon": payBills,
+        "title": "Personalised Notifications",
+        "subtext": "Seamlessly pay your rent with NTAR—quick, secure, and hassle-free."
+    },
+    {
+        "icon": payBills,
+        "title": "Pay at Store",
+        "subtext": "Make in-store payments effortlessly with NTAR convenient transactions."
+    },
+    {
+        "icon": payBills,
+        "title": "Pay Tuition Fee",
+        "subtext": "NTAR makes tuition fee payments a breeze."
+    },
+    {
+        "icon": payBills,
+        "title": "Pay QR",
+        "subtext": "Scan and pay effortlessly with NTAR's QR feature."
+    }
+]
+
