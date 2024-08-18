@@ -1,10 +1,11 @@
 /* Carousel.css */
-.carousel-container {
-  width: 100%;
-  max-width: 600px; /* Adjust this as needed */
-  margin: 0 auto;
-  position: relative;
-  padding: 100px 0px;
+.web-Carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  column-gap: 17px;
 }
 
 .slide {
@@ -16,17 +17,34 @@
   height: auto;
   display: block;
 }
-
 .text-overlay {
   position: absolute;
-  bottom: 20px; /* Adjust this value to control vertical positioning */
-  left: 20px; /* Adjust this value to control horizontal positioning */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: white; /* Text color */
-  padding: 10px; /* Adjust padding as needed */
-  border-radius: 5px; /* Rounded corners for the text box */
-  font-size: 18px; /* Font size */
-  font-weight: bold; /* Font weight */
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+  /* font-size: 18px; */
+  /* font-weight: bold; */
+}
+
+.title_crl {
+  font-size: 43px;
+
+  font-weight: 700;
+  font-family: "Youth";
+  text-align: center;
+}
+
+.card-sub-crl-text {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Youth";
+  align-self: flex-start;
 }
 
 .arrow {
@@ -48,7 +66,7 @@
   padding: 20px 0px;
 }
 
-.arrow:hover{
+.arrow:hover {
   background-color: blue !important;
   color: #ffffff;
 }
@@ -59,4 +77,34 @@
 
 .arrow-prev {
   left: 10px; /* Adjust position as needed */
+}
+@media only screen and (max-width: 599px) {
+  .carousel-container {
+    width: 100%;
+    max-width: 600px; /* Adjust this as needed */
+    margin: 0 auto;
+    position: relative;
+    padding: 100px 0px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  /* Tablet styles here */
+  .carousel-container img {
+    width: 459px;
+    object-fit: contain;
+    height: auto;
+  }
+  .carousel-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Styles for laptops and desktops */
+@media only screen and (min-width: 1200px) {
+  .carousel-container img {
+    width: 459px;
+    object-fit: contain;
+    height: auto;
+  }
 }
