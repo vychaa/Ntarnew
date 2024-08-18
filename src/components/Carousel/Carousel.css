@@ -78,13 +78,25 @@
 .arrow-prev {
   left: 10px; /* Adjust position as needed */
 }
+.web_cards {
+  display: flex;
+}
+.mobile_cards {
+  display: none;
+}
 @media only screen and (max-width: 599px) {
   .carousel-container {
     width: 100%;
-    max-width: 600px; /* Adjust this as needed */
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
     padding: 100px 0px;
+  }
+  .web_cards {
+    display: none;
+  }
+  .mobile_cards {
+    display: block;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 1199px) {

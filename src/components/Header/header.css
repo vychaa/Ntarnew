@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 
   ul {
     display: flex;
@@ -18,6 +17,12 @@
     font-weight: 700;
     line-height: 21.42px;
     text-align: center;
+    padding: 8px;
+  }
+
+  .active_list {
+    background: #3103eb;
+    color: white;
   }
 }
 

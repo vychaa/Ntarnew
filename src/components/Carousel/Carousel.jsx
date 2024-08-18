@@ -35,10 +35,10 @@ const Carousel = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-  const isMobile = window.innerWidth <= 768;
-  if (!isMobile) {
-    return (
-      <div className="carousel-container web-Carousel">
+
+  return (
+    <>
+      <div className="carousel-container web-Carousel web_cards">
         <div className="slide">
           <img src={carousel1} alt="Slide 1" />
           <div className="text-overlay">
@@ -58,26 +58,24 @@ const Carousel = () => {
         </div>
         {/* Add more slides as needed */}
       </div>
-    );
-  }
-  return (
-    <div className="carousel-container">
-      <Slider {...settings}>
-        <div className="slide">
-          <img src={carousel1} alt="Slide 1" />
-          <div className="text-overlay">Hello World</div>
-        </div>
-        <div className="slide">
-          <img src={carousel2} alt="Slide 2" />
-          <div className="text-overlay">Another Slide</div>
-        </div>
-        <div className="slide">
-          <img src={carousel1} alt="Slide 3" />
-          <div className="text-overlay">Yet Another Slide</div>
-        </div>
-        {/* Add more slides as needed */}
-      </Slider>
-    </div>
+      <div className="carousel-container mobile_cards">
+        <Slider {...settings}>
+          <div className="slide">
+            <img src={carousel1} alt="Slide 1" />
+            <div className="text-overlay">Hello World</div>
+          </div>
+          <div className="slide">
+            <img src={carousel2} alt="Slide 2" />
+            <div className="text-overlay">Another Slide</div>
+          </div>
+          <div className="slide">
+            <img src={carousel1} alt="Slide 3" />
+            <div className="text-overlay">Yet Another Slide</div>
+          </div>
+          {/* Add more slides as needed */}
+        </Slider>
+      </div>
+    </>
   );
 };
 
