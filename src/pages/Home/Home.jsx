@@ -61,7 +61,6 @@ const Home = () => {
             <div>
               {/* <NewsSlider /> */}
               <Carousel />
-              
             </div>
           </div>
         </div>
@@ -102,21 +101,21 @@ const Home = () => {
           </div>
           <button className="Explore">Explore</button>
         </div>
-        <div className="payments_container">
-          <div className="scroll_image_container">
-            <img
-              className="manScrollingCoinLeft"
-              src={manScrollingCoin}
-              alt="manScrollingCoin"
-            />
-            <span className="inside-img-text">NTAR Pay</span>
+        <div className="payments_container mob_reverse_column">
+          <div className="container_with_explore">
+            <div className="scroll_image_container ">
+              <img
+                className="manScrollingCoinLeft"
+                src={manScrollingCoin}
+                alt="manScrollingCoin"
+              />
+
+              <span className="inside-img-text">NTAR Pay</span>
+            </div>
+            <button className="Explore mob_explore">Explore</button>
           </div>
           <div className="payments_sub">
-            <span className="your_finance">
-              Your Finance at
-              <br />
-              Your Fingertips
-            </span>
+            <span className="your_finance">Perfect Features for You!</span>
             <div className="your_finance_container">
               {finance_items.map((each) => {
                 return (
@@ -137,8 +136,7 @@ const Home = () => {
               })}
             </div>
           </div>
-
-          <button className="Explore">Explore</button>
+          <button className="Explore web_explore">Explore</button>
         </div>
         <div className="contentboxwhite-5">
           <div className="section-5">
