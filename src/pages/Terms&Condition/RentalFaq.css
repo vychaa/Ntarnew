@@ -1,0 +1,199 @@
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container holding sidebar and content */
+.faq-container {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-bottom: 600px;
+}
+
+/* Sticky Sidebar Styles */
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  position: absolute;
+  top: 123px;
+  height: 150vh;
+  left: 13%;
+  /* overflow-y: auto; */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.termscond {
+  margin-top: 10px;
+  margin-left: -5px;
+  font-family: "Youth";
+  font-weight: 800;
+}
+.disclamaier {
+  text-align: left;
+  font-size: 17px;
+  font-family: "Youth_bold";
+  margin-top: 30px;
+}
+.sidebar li a:hover {
+  color: #007bff;
+}
+
+/* Horizontal line after each list item */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+/* Content Area Styles */
+.content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin-left: 35%;
+  align-items: center;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: left;
+}
+
+.disclaimer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.disclaimer-section p {
+  line-height: 30px;
+  color: black;
+  white-space: pre-wrap;
+  width: 90%;
+  text-align: left;
+  text-align: justify;
+}
+.sidebar-icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+  margin-right: 10px; /* Space between the icon and the text */
+  vertical-align: middle; /* Align the icon vertically with the text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-container {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  /* .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+      } */
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    height: 30vh;
+    overflow-y: auto;
+    left: 3%;
+    margin-bottom: 20px;
+  }
+
+  .disclaimer-section p {
+    line-height: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .content {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #fff;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+    margin-top: 470px;
+  }
+
+  .disclaimer-section p {
+    line-height: 20px; /* Further decrease line-height */
+    width: 100%; /* Full width on small screens */
+    max-width: 100%; /* Remove max-width to fit small screens */
+    font-size: 16px; /* Reduce font size for readability on small screens */
+  }
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    height: 50vh;
+    overflow-y: auto;
+    left: 3%;
+  }
+}

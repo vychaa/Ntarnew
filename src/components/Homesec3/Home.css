@@ -1,0 +1,3146 @@
+.home {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: #5423e7;
+  font-family: "Youth";
+  font-size: 12px;
+  color: #fff;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.home_button_con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bb_edu_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.edu_name {
+  display: flex;
+  justify-content: flex-end;
+  /* width: 100%; */
+  align-items: baseline;
+  margin-top: -100px;
+}
+
+.bbps_button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  border-radius: 7px !important;
+  padding: 6px 15px;
+  gap: 8px;
+  border-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__blue-container {
+  background-color: #5423e7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: -62px;
+}
+
+/* Intro text styling */
+.home__intro-text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Youth";
+  line-height: 53px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* Section for NTAR content */
+.home__ntar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -7%;
+  /* margin-left: -3%; */
+  font-family: "Youth";
+}
+
+/* Magic money text section */
+.home__magicmoney-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for "Let's" text */
+.home__magic-lets {
+  text-align: center;
+  color: white;
+  font-size: 138px;
+  margin-right: -5%;
+  font-weight: bold;
+  font-family: "Youth";
+  line-height: 167px;
+}
+
+/* Styling for the gif image */
+.home__gif {
+  width: 269px;
+  object-fit: contain;
+}
+
+/* Styling for the NTAR text */
+.home__ntar-text {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  font-size: 138px;
+  font-weight: bold;
+  margin-left: -5%;
+  font-family: "Youth";
+}
+
+/* Container for the mobile image */
+.home__mobile-image-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0%;
+}
+
+/* Styling for the mobile image */
+.home__mobile-image-web-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -13%;
+}
+.home__mobile-image-mobile-image {
+  display: none;
+}
+
+.explor-side {
+  width: 16% !important;
+  margin: 6px;
+}
+
+.finance_container {
+  /* height:100px; */
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: -27%;
+  z-index: 99;
+  padding: 20px;
+}
+.finance_header_text {
+  font-family: "youth_bold";
+  font-size: 72px;
+  line-height: 86.4px;
+  text-align: center;
+  margin-bottom: 17px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+}
+.finance_description {
+  /* font-family: "banana-grotesk-light"; */
+  font-size: 20.24px;
+  line-height: 28.31px;
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 20px;
+}
+.payments_container {
+  margin-top: 100px;
+  background-color: rgba(254, 233, 71, 1);
+  display: flex;
+  align-items: center;
+  padding: 0px 190px !important;
+}
+.payments_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 130vw;
+}
+
+.mob_reverse_column {
+  /* height: 100%; */
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.web_explore_btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+
+.your_finance {
+  font-size: 56px;
+  line-height: 67px;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
+  font-family: "Youth_bold";
+}
+
+.your_finance_mob {
+  display: none;
+}
+
+.your_finance_mob_white {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 500;
+  color: white;
+  font-family: "youth_bold";
+  text-align: center;
+  width: 80%;
+  display: none;
+}
+
+.your_finance_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.your_finance_item {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.your_finance_icon {
+  height: 48px;
+  object-fit: contain;
+}
+.your_finance_sub_card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+  /* margin-top: 15px; */
+  width: 100%;
+}
+.section_perfect_explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.your_finance_title {
+  font-family: "youth_bold";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+}
+.your_finance_sub_text {
+  font-family: "BananaGroteskRegular";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #000000;
+  text-align: left;
+}
+
+.your_finance_sub_text_2 {
+  font-family: "BananaGroteskRegular";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #000000;
+  text-align: left;
+  width: 80%;
+}
+
+.manScrollingCoin {
+  object-fit: contain;
+  width: 397px;
+  transform: scaleX(-1);
+}
+.manScrollingCoinLeft {
+  object-fit: contain;
+  width: 350px;
+}
+
+.inside-img-text {
+  font-size: 36px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #909090 100%, #2a2a2a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  position: absolute;
+  left: 38%;
+  top: 10px;
+}
+.Explore {
+  height: 40px;
+  width: 15%;
+  background-color: #5423e7;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  outline: none;
+  /* padding: 0 30px; */
+  width: auto;
+  font-size: 16px;
+  font-family: "Youth_bold";
+}
+.scroll_image_container {
+  position: relative;
+}
+.mob_explore {
+  display: none;
+}
+.container_with_explore {
+  display: flex;
+  flex-direction: column;
+}
+.web_explore {
+  display: block;
+}
+.mob_explore {
+  display: none;
+}
+
+.contentboxwhite-5 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "Youth";
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.grey-box {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.comingsoon-section {
+  background-color: #f9e400;
+  border-radius: 15px;
+  width: 100px;
+  height: 25px;
+  color: black;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 20px;
+  z-index: 5;
+}
+
+.comingsoon-text-section {
+  font-size: 12px;
+  margin: 0px;
+  font-weight: 600;
+  display: flex;
+  align-self: center;
+  font-family: "BananaGroteskRegular" !important;
+}
+
+.sectioncard {
+  width: 95%;
+  max-width: 95%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.section-cards {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  column-gap: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 65px;
+  margin: 20px;
+  gap: 20px;
+}
+
+.treeicon {
+  width: 12%;
+}
+.ntarsmallgif {
+  width: 20%;
+  margin: -24px;
+}
+.moneygrow {
+  font-size: 42px !important;
+  font-weight: bold !important;
+  font-family: "Youth";
+  color: white !important;
+  text-align: justify !important;
+}
+
+.pots {
+  position: absolute;
+  top: 16%;
+  left: 8%;
+  font-weight: bold;
+  font-size: 30px;
+  z-index: 10;
+  font-family: "Youth";
+  color: black;
+}
+.create-custom {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  font-weight: 400;
+  font-size: 14px;
+  width: 55%;
+  font-family: "BananaGroteskRegular" !important;
+  color: black;
+  text-align: left;
+}
+.scroll-section-ex-button-2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 20%;
+  margin-right: 0%;
+}
+.middle-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.contentboxblack-7 {
+  background: black;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.white-text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  margin: -4%;
+  font-family: "Youth";
+}
+
+.ntar-begins2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -2%;
+  font-family: "Youth";
+  margin-bottom: 50px;
+  z-index: 2;
+  position: relative;
+}
+
+.money-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.money {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Youth";
+}
+
+.magic {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  font-size: 100px;
+  font-weight: bold;
+  margin-left: -4%;
+  font-family: "Youth";
+}
+
+.gif-yellow {
+  width: 25%;
+  max-width: 250px;
+}
+
+.ntarway {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: -4%;
+  z-index: -10px;
+  z-index: 2;
+  position: relative;
+}
+
+.letsbutton-2 {
+  background-color: white;
+  font-family: "Youth_bold";
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  border-radius: 7px !important;
+  padding: 6px 15px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.whitearrow {
+  width: 12%;
+}
+
+.float-gif {
+  width: 2300px;
+  height: 1250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: -600px;
+  z-index: 1;
+}
+
+.black-w-gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.contentboxorange-6 {
+  background: #ff5613;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.orgphone {
+  width: 20%;
+  /* margin-left: 5%; */
+}
+
+.org-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10%;
+}
+.org-text {
+  font-size: 65px;
+  text-align: center;
+  color: white;
+  font-family: "Youth";
+  font-weight: bold;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 15%;
+  line-height: 80px;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.letsbutton {
+  border: 2px solid #ffffffb5;
+  border-radius: 10px;
+  background: black;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Youth";
+  position: relative;
+}
+
+.letsbutton-outside {
+  display: none;
+}
+
+.letsbutton-wrapper {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  margin-top: 58%;
+}
+
+.letsntarsweet-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -32vh;
+  font-family: "Youth";
+  position: relative;
+  z-index: 2;
+}
+.letsbutton-2 {
+  background-color: white;
+  font-family: "Youth_bold";
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  border-radius: 7px !important;
+  padding: 10px 3px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whitearrow {
+  width: 12%;
+}
+@media (max-width: 768px) {
+  .blue-container {
+    height: 600px;
+    height: auto;
+  }
+  .letsbutton-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 93%;
+  }
+
+  .letsbutton-outside {
+    display: block;
+    margin-top: 20px; /* Adjust as needed */
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Youth";
+  }
+
+  .home__intro-text {
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: 100px;
+  }
+
+  .home__mobile-image-web-image {
+    display: none;
+    width: 150%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
+  }
+
+  .home__mobile-image-mobile-image {
+    display: block;
+    width: 180%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
+  }
+
+  .bluebox-text {
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 10vh;
+  }
+
+  .web-br {
+    display: none;
+  }
+
+  .blue-mobile-imge {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+  }
+  .card-image {
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: 18px;
+  }
+  .cards-div {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+  .magicmoney-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+  }
+
+  .magic-lets,
+  .Ntar {
+    font-size: 50px;
+    margin: -20px;
+  }
+  .card-image-con {
+    display: block;
+    width: 150%; /* Default width to ensure it fits within the container */
+    max-width: 150%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: -35%;
+  }
+  .gif2-yellow {
+    width: 40%;
+  }
+
+  .ntar-begins2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .oneapp-text {
+    font-size: 34px;
+    font-weight: bolder;
+  }
+
+  .longtext {
+    font-size: 13px;
+  }
+
+  .card-container {
+    max-width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentboxwhite-section2 {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-text {
+    font-size: 32px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .card-sub-text {
+    font-size: 20px;
+    top: 30%;
+    left: 10%;
+    font-weight: 100;
+    line-height: 30.2px;
+  }
+
+  .iconpng {
+    width: 12%;
+    top: 80%;
+    left: 10%;
+  }
+
+  .ntarpay {
+    font-size: 20px;
+    top: 85%;
+    left: 22%;
+  }
+
+  .exploremore {
+    font-size: 12px;
+    top: 87%;
+    left: 74%;
+  }
+
+  .explorepng {
+    width: 5%;
+    top: 86%;
+    left: 87%;
+  }
+
+  .scroll-coin-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .total-scroll-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .total-column-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .total-column-div-2 {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+  }
+  .finance-heading {
+    font-size: 34px;
+    font-weight: 500px;
+    margin-left: 0%;
+  }
+
+  .perfect-heading {
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    /* order: 1; */
+  }
+
+  .main-head {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  .sub-head {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .first-leftside-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .head-sub-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .image-container {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-div {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 4;
+  }
+
+  .scrolling-gif {
+    width: 95%;
+    transform: scaleX(-1);
+    margin-top: 0%;
+  }
+
+  .scrolling-gif-2 {
+    width: 80%;
+    margin-top: 10%;
+  }
+
+  .inside-img-text {
+    font-size: 44px;
+    font-weight: 500;
+    top: -126%;
+    position: relative;
+    display: none;
+    left: 30%;
+  }
+
+  .scroll-section-ex-button {
+    display: flex;
+    justify-content: end;
+    margin-top: 3%;
+    margin-right: 0%;
+  }
+  .scroll-section-ex-button-2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 20%;
+    margin-right: 0%;
+    order: 5;
+  }
+  .exButton {
+    background-color: #5423e7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-family: "Youth";
+  }
+
+  .button-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrowicon-2 {
+    width: 12%;
+  }
+
+  .contentboxwhite-5 {
+    background-image: url("../../assets/images/anothermage.png");
+    background-size: cover; /* or use 'contain' */
+    background-position: center; /* Ensure the image is centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: "Youth";
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .sectioncard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+  }
+
+  .comingsoon-section {
+    background-color: #f9e400;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 20px;
+    z-index: 5;
+  }
+
+  .comingsoon-text-section {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    font-family: "BananaGroteskRegular";
+  }
+
+  .middle-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    column-gap: -10px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .treeicon {
+    width: 12%;
+  }
+  .ntarsmallgif {
+    width: 20%;
+    margin: -20px;
+  }
+  .moneygrow {
+    font-size: 34px !important;
+    font-weight: bold !important;
+    font-family: "Youth" !important;
+    color: white !important;
+    text-align: justify;
+  }
+
+  .pots {
+    position: absolute;
+    top: 16%;
+    /* left: 20%; */
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 10;
+    font-family: "Youth";
+  }
+  .create-custom {
+    position: absolute;
+    top: 40%;
+    font-family: "BananaGroteskRegular" !important;
+    font-weight: 400;
+    font-size: 15px;
+    width: 48%;
+  }
+
+  .contentboxorange-6 {
+    background: transparent;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .orgphone {
+    width: 60%;
+    margin-left: 0%;
+    order: 2;
+    margin: 30px;
+  }
+
+  .org-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0%;
+  }
+  .new-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .org-text {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    font-family: "Youth";
+    font-weight: bold;
+    margin-top: 25%;
+    line-height: 40px;
+  }
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .letsbutton {
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    background: black;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Youth";
+  }
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+
+  .whitearrow {
+    width: 12%;
+  }
+
+  .contentboxblack-7 {
+    background: black;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .white-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin: -4%;
+    font-family: "Youth";
+  }
+
+  .ntar-begins2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0%;
+    font-family: "Youth";
+  }
+
+  .money-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .money {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Youth";
+    margin-right: -4%;
+    margin-top: 10%;
+  }
+
+  .magic {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 43px;
+    font-weight: bold;
+    margin-left: -4%;
+    font-family: "Youth";
+  }
+
+  .gif-yellow {
+    width: 25%;
+    max-width: 250px;
+    margin-top: -10px;
+  }
+
+  .ntarway {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: -15%;
+  }
+
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+
+  .whitearrow {
+    width: 12%;
+  }
+  .float-gif {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -130px;
+  }
+  .black-w-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .yellow-blue-text {
+    color: #f9e400;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: "Youth";
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  .white-blue-text {
+    color: white;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Youth";
+    margin: 0px;
+    font-weight: bold;
+  }
+
+  .footer-middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qrcode {
+    width: 30%;
+    margin-left: -4%;
+  }
+
+  .appstore-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 10%;
+    height: 30px;
+    color: white;
+  }
+
+  .apple-icon {
+    width: 10%;
+  }
+
+  .playstore-button {
+    width: 10%;
+  }
+
+  .store-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    column-gap: 20px;
+  }
+
+  .gray-box {
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    margin-left: -60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: "Youth";
+  }
+  .gray-box-div {
+    display: flex;
+    flex-direction: row;
+    font-family: "Youth";
+  }
+
+  .two-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+  }
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+    flex-direction: row;
+    font-family: "Youth";
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+  }
+
+  .category-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 35%; */
+  }
+
+  .category-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 12%; */
+  }
+
+  .category-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 35%; */
+  }
+
+  .header-text {
+    color: #c2c2c2;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: "Youth";
+  }
+
+  .subcategories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Youth";
+  }
+
+  .subcategory-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: "Youth";
+  }
+
+  .horizontalLine-1 {
+    width: 700px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    font-family: "Youth";
+  }
+
+  .subcategory {
+    color: white;
+    font-size: 18px;
+    white-space: nowrap;
+    margin: 0px;
+    font-family: "Youth";
+  }
+
+  .after-horizontal-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .white-headings-privacy {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-wrap: nowrap;
+    margin-left: 47%;
+    font-family: "Youth";
+  }
+
+  .white-headings-terms {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-wrap: nowrap;
+    margin-left: 47%;
+    font-family: "Youth";
+  }
+  .gray-headings-get {
+    color: #c2c2c2;
+    width: 100%;
+    font-size: 14px;
+    text-wrap: nowrap;
+    font-family: "Youth";
+  }
+  .address {
+    color: white;
+    width: 78%;
+    font-size: 14px;
+    font-family: "Youth";
+  }
+
+  .mail-down {
+    color: white;
+    margin-left: 8%;
+    font-size: 14px;
+    font-family: "Youth";
+  }
+
+  .mail {
+    color: white;
+    font-family: "Youth";
+  }
+
+  .header2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    flex-direction: row;
+    column-gap: 35%;
+    margin-left: 10%;
+    margin-left: -5%;
+    font-family: "Youth";
+  }
+
+  .icon-svg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    row-gap: 25px;
+  }
+
+  .comingsoon-section-footer {
+    background-color: #f9e400;
+    border-radius: 15px;
+    width: 90px;
+    height: 25px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    z-index: 5;
+    font-family: "Youth";
+  }
+
+  .pots-comingsoon-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .comingsoon-text-small {
+    font-size: 8.82px;
+    margin: 0px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    font-family: "BananaGroteskRegular";
+  }
+  .address-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .addressmail-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mail-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 18px;
+  }
+
+  .footer-last {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 13%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .explorearrow {
+    width: 15%;
+  }
+
+  .insta p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    font-family: "Youth";
+  }
+
+  .scroll-coin-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Styles for mobiles */
+@media only screen and (max-width: 599px) {
+  .home__intro-text {
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: 100px;
+  }
+  .home__magic-lets {
+    font-size: 50px;
+    line-height: 78px;
+  }
+
+  .home__ntar-text {
+    font-size: 50px;
+    line-height: 78px;
+  }
+  .home__gif {
+    width: 130px;
+    object-fit: contain;
+  }
+
+  .finance_header_text {
+    font-family: "Youth_bold";
+    font-size: 34px;
+    line-height: 40px;
+    text-align: left;
+  }
+  .finance_description {
+    /* font-family: "banana-grotesk-light"; */
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+  }
+  .payments_container {
+    width: 100vw;
+    height: auto !important;
+    background-color: rgba(254, 233, 71, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+    padding: 0px 0px !important;
+  }
+
+  .payments_container_down {
+    background-color: #5423e7;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 60px !important; */
+  }
+
+  .your_finance {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: none;
+  }
+
+  .your_finance_white {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: none;
+  }
+
+  .your_finance_title {
+    font-family: "youth_bold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .your_finance_title_white {
+    font-family: "youth_bold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .your_finance_sub_text_white {
+    font-family: "BananaGroteskRegular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffffa3;
+    text-align: left;
+    width: 85%;
+  }
+
+  .your_finance_mob {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: black;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: block;
+  }
+
+  .your_finance_mob_white {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: block;
+  }
+  .container_with_explore {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: end;
+  }
+  .payments_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    width: 100vw;
+  }
+
+  .payments_sub_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .manScrollingCoinLeft {
+    object-fit: contain;
+    width: 397px;
+    display: none;
+  }
+  .your_finance_container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-left: 20px;
+  }
+
+  .Explore {
+    align-self: flex-end;
+    margin: 30px;
+    font-family: "Youth_bold";
+    font-size: 16px;
+    padding: 0px;
+  }
+  .mob_exp_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .web_explore {
+    display: none;
+  }
+  .mob_reverse_column {
+    flex-direction: column-reverse;
+  }
+  .mob_explore {
+    display: none;
+  }
+  .explor-side {
+    width: 15% !important;
+    margin: 4px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .payments_container {
+    width: 100vw;
+    height: 50vh !important;
+    background-color: rgba(254, 233, 71, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+    padding: 0px 0px !important;
+  }
+
+  .payments_container_down {
+    background-color: #5423e7;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 60px !important;
+      width: 100%; */
+    /* height: 100vh; */
+  }
+
+  .your_finance {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    /* display: none; */
+  }
+
+  .your_finance_white {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 100%;
+  }
+
+  .your_finance_mob {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: none;
+  }
+
+  .your_finance_mob_white {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: "youth_bold";
+    text-align: center;
+    width: 80%;
+    display: none;
+  }
+
+  .payments_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .payments_sub_down {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100vw;
+  }
+  .manScrollingCoinLeft {
+    object-fit: contain;
+    width: 397px;
+  }
+  .your_finance_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-left: 20px;
+  }
+
+  .letsbutton-wrapper {
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 68%;
+  }
+
+  .your_finance_title_white {
+    font-family: "youth_bold";
+    font-size: 21px;
+    line-height: 30px;
+    color: white;
+  }
+
+  .your_finance_sub_text {
+    font-family: "BananaGroteskRegular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+    width: 85%;
+  }
+  .your_finance_sub_text_white {
+    font-family: "BananaGroteskRegular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffffa1;
+    text-align: left;
+    width: 90%;
+  }
+
+  .Explore {
+    align-self: flex-end;
+    margin: 30px;
+    font-family: "Youth_bold";
+  }
+  .mob_exp_2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .web_explore {
+    display: none;
+  }
+  .mob_reverse_column {
+    flex-direction: column-reverse;
+  }
+  .mob_explore {
+    display: none;
+  }
+
+  .home__magic-lets {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-right: -5%;
+    font-weight: bold;
+    font-family: "Youth";
+    line-height: 167px;
+  }
+
+  .home__ntar-text {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: -5%;
+    font-family: "Youth";
+  }
+
+  .contentboxwhite-5 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: "Youth";
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .card {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .grey-box {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+
+  .comingsoon-section {
+    background-color: #f9e400;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 20px;
+    z-index: 5;
+  }
+
+  .comingsoon-text-section {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    font-family: "BananaGroteskRegular" !important;
+  }
+
+  .sectioncard {
+    width: 95%;
+    max-width: 95%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .section-cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    column-gap: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .treeicon {
+    width: 12%;
+  }
+  .ntarsmallgif {
+    width: 20%;
+    margin: -25px;
+  }
+  .moneygrow {
+    font-size: 42px !important;
+    font-weight: bold !important;
+    font-family: "Youth";
+    color: white !important;
+    text-align: justify !important;
+  }
+
+  .pots {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 10;
+    font-family: "Youth";
+    color: black;
+    font-family: "youth_bold";
+  }
+  .create-custom {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-weight: 400;
+    font-size: 25px;
+    width: 80%;
+    font-family: "BananaGroteskRegular" !important;
+    color: black;
+    text-align: left;
+  }
+  .scroll-section-ex-button-2 {
+    display: flex;
+    justify-content: end;
+    margin-top: 20%;
+    margin-right: 0%;
+  }
+  .middle-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contentboxorange-6 {
+    background: #ff5613;
+    width: 100%;
+    height: 60vh;
+    padding: 0px;
+    position: relative;
+  }
+
+  .orgphone {
+    width: 60%;
+    margin-left: 0%;
+    order: 2;
+    margin: 30px;
+  }
+
+  .org-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0%;
+  }
+  .new-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .org-text {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "Youth";
+    font-weight: bold;
+    margin-top: 180px;
+    line-height: 60px;
+  }
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .letsbutton {
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    background: black;
+    height: 55px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 20px;
+    font-family: "Youth_bold";
+    margin-top: 50px;
+  }
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+
+  .whitearrow {
+    width: 12%;
+  }
+
+  .contentboxblack-7 {
+    background: black;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    /* margin-top: 50px; */
+  }
+
+  .white-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin: -4%;
+    font-family: "Youth";
+  }
+
+  .ntar-begins2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -2%;
+    font-family: "Youth";
+    font-size: 60px;
+    margin: 0px;
+  }
+
+  .money-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .money {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Youth";
+    margin-right: -4%;
+    margin-top: 10%;
+  }
+
+  .magic {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 43px;
+    font-weight: bold;
+    margin-left: -4%;
+    font-family: "Youth";
+  }
+
+  .gif-yellow {
+    width: 25%;
+    max-width: 250px;
+    margin-top: -10px;
+  }
+
+  .ntarway {
+    text-align: center;
+    color: white;
+    line-height: 5.5;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -15%;
+  }
+
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    font-family: "Youth";
+  }
+  .letsbutton-2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    font-family: "Youth";
+  }
+
+  .whitearrow {
+    width: 12%;
+  }
+  .float-gif {
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -350px;
+  }
+  .black-w-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .yellow-blue-text {
+    color: #f9e400;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: "Youth";
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  .white-blue-text {
+    color: white;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Youth";
+    margin: 0px;
+    font-weight: bold;
+  }
+
+  .footer-middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qrcode {
+    width: 30%;
+    margin-left: -4%;
+  }
+
+  .appstore-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 10%;
+    height: 30px;
+    color: white;
+  }
+
+  .apple-icon {
+    width: 10%;
+  }
+
+  .playstore-button {
+    width: 10%;
+  }
+
+  .store-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    column-gap: 20px;
+  }
+
+  .gray-box {
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    margin-left: -60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: "Youth";
+  }
+  .gray-box-div {
+    display: flex;
+    flex-direction: row;
+    font-family: "Youth";
+  }
+
+  .two-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+  }
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+    flex-direction: row;
+    font-family: "Youth";
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+  }
+
+  .category-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 35%; */
+  }
+
+  .category-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 12%; */
+  }
+
+  .category-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 35%; */
+  }
+
+  .header-text {
+    color: #c2c2c2;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: "Youth";
+  }
+
+  .subcategories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Youth";
+  }
+
+  .subcategory-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: "Youth";
+    align-items: flex-start;
+  }
+
+  .horizontalLine-1 {
+    width: 700px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    font-family: "Youth";
+  }
+
+  .subcategory {
+    color: white;
+    font-size: 18px;
+    white-space: nowrap;
+    margin: 0px;
+    font-family: "Youth";
+  }
+
+  .after-horizontal-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .white-headings-privacy {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-wrap: nowrap;
+    margin-left: 47%;
+    font-family: "Youth";
+  }
+
+  .white-headings-terms {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-wrap: nowrap;
+    margin-left: 47%;
+    font-family: "Youth";
+  }
+  .gray-headings-get {
+    color: #c2c2c2;
+    width: 100%;
+    font-size: 14px;
+    text-wrap: nowrap;
+    font-family: "Youth";
+  }
+  .address {
+    color: white;
+    width: 78%;
+    font-size: 14px;
+    font-family: "Youth";
+  }
+
+  .mail-down {
+    color: white;
+    margin-left: 8%;
+    font-size: 14px;
+    font-family: "Youth";
+  }
+
+  .mail {
+    color: white;
+    font-family: "Youth";
+  }
+
+  .header2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    flex-direction: row;
+    column-gap: 35%;
+    margin-left: 10%;
+    margin-left: -5%;
+    font-family: "Youth";
+  }
+
+  .icon-svg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    row-gap: 25px;
+  }
+
+  .comingsoon-section-footer {
+    background-color: #f9e400;
+    border-radius: 15px;
+    width: 90px;
+    height: 25px;
+    color: black;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    z-index: 5;
+    font-family: "Youth";
+  }
+
+  .pots-comingsoon-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .comingsoon-text-small {
+    font-size: 8.82px;
+    margin: 0px;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    font-family: "BananaGroteskRegular";
+  }
+  .address-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+  }
+  .addressmail-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mail-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 18px;
+  }
+
+  .footer-last {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 13%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .explorearrow {
+    width: 15%;
+  }
+
+  .insta p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    font-family: "Youth";
+  }
+
+  .scroll-coin-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1540px) {
+  .home__blue-container {
+    background-color: #5423e7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -62px;
+  }
+  .finance_container {
+    /* height:100px; */
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -27%;
+    z-index: 99;
+    padding: 20px;
+  }
+  .finance_header_text {
+    font-family: "youth_bold";
+    font-size: 72px;
+    line-height: 86.4px;
+    text-align: center;
+    margin-bottom: 17px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+  }
+  .finance_description {
+    /* font-family: "banana-grotesk-light"; */
+    font-size: 20.24px;
+    line-height: 28.31px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .payments_container {
+    margin-top: 20px;
+    background-color: rgba(254, 233, 71, 1);
+    display: flex;
+    align-items: center;
+    padding: 0px 190px !important;
+    height: 100vh;
+  }
+
+  .payments_container_down {
+    /* margin-top: 100px; */
+    background-color: #5423e7;
+    display: flex;
+    align-items: center;
+    padding: 0px 60px !important;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .payments_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 130vw;
+  }
+
+  .payments_sub_down {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50vw;
+  }
+
+  .mob_reverse_column {
+    /* height: 100%; */
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  .web_explore_btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .your_finance {
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    font-family: "Youth_bold";
+  }
+
+  .your_finance_white {
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    font-family: "Youth_bold";
+  }
+
+  .your_finance_mob {
+    display: none;
+  }
+
+  .your_finance_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 60px;
+  }
+
+  .your_finance_item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  .your_finance_icon {
+    height: 48px;
+    object-fit: contain;
+  }
+  .your_finance_sub_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    /* margin-top: 15px; */
+    width: 100%;
+  }
+  .section_perfect_explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .your_finance_title {
+    font-family: "youth_bold";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .your_finance_sub_text {
+    font-family: "BananaGroteskRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .your_finance_title_white {
+    font-family: "youth_bold";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+  }
+
+  .your_finance_sub_text_white {
+    font-family: "BananaGroteskRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffffa3;
+    text-align: left;
+  }
+
+  .your_finance_sub_text_2 {
+    font-family: "Youth";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #000000;
+    text-align: left;
+    width: 80%;
+  }
+
+  .manScrollingCoin {
+    object-fit: contain;
+    width: 397px;
+    transform: scaleX(-1);
+  }
+  .manScrollingCoinLeft {
+    object-fit: contain;
+    width: 500px;
+  }
+
+  .inside-img-text {
+    font-size: 36px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #909090 100%, #2a2a2a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    left: 38%;
+    top: 10px;
+  }
+  .Explore {
+    height: 40px;
+    width: 15%;
+    background-color: #5423e7;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    outline: none;
+    /* padding: 0 30px; */
+    width: auto;
+    font-size: 16px;
+    font-family: "Youth_bold";
+  }
+  .scroll_image_container {
+    position: relative;
+  }
+
+  .moneygrow {
+    font-size: 37px !important;
+    font-weight: bold !important;
+    font-family: "Youth";
+    color: white !important;
+  }
+
+  .mob_explore {
+    display: none;
+  }
+  .container_with_explore {
+    display: flex;
+    flex-direction: column;
+  }
+  .web_explore {
+    display: none;
+  }
+  .mob_explore {
+    display: none;
+  }
+}
+
+@media (min-width: 1541px) {
+  .home__blue-container {
+    background-color: #5423e7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -62px;
+  }
+  .finance_container {
+    /* height:100px; */
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -27%;
+    z-index: 99;
+    padding: 20px;
+  }
+  .finance_header_text {
+    font-family: "youth_bold";
+    font-size: 72px;
+    line-height: 86.4px;
+    text-align: center;
+    margin-bottom: 17px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+  }
+  .finance_description {
+    /* font-family: "banana-grotesk-light"; */
+    font-size: 20.24px;
+    line-height: 28.31px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .payments_container {
+    margin-top: 20px;
+    background-color: rgba(254, 233, 71, 1);
+    display: flex;
+    align-items: center;
+    padding: 0px 220px !important;
+    height: 100vh;
+  }
+
+  .payments_container_down {
+    background-color: #5423e7;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px !important;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .payments_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 130vw;
+  }
+
+  .payments_sub_down {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50vw;
+  }
+
+  .mob_reverse_column {
+    /* height: 100%; */
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  .web_explore_btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    /* display: block; */
+  }
+
+  .web_explore {
+    display: none;
+  }
+
+  .your_finance {
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    font-family: "Youth_bold";
+  }
+
+  .your_finance_white {
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    font-family: "Youth_bold";
+  }
+
+  .your_finance_mob {
+    display: none;
+  }
+
+  .your_finance_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 60px;
+  }
+
+  .your_finance_item {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  .your_finance_icon {
+    height: 48px;
+    object-fit: contain;
+  }
+  .your_finance_sub_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    /* margin-top: 15px; */
+    width: 100%;
+  }
+  .section_perfect_explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .your_finance_title {
+    font-family: "youth_bold";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .your_finance_title_white {
+    font-family: "youth_bold";
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+  }
+
+  .your_finance_sub_text {
+    font-family: "BananaGroteskRegular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .your_finance_sub_text_white {
+    font-family: "BananaGroteskRegular";
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    color: #ffffffa3;
+    text-align: left;
+  }
+
+  .your_finance_sub_text_2 {
+    font-family: "BananaGroteskRegular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #000000;
+    text-align: left;
+    width: 80%;
+  }
+
+  .org-text {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: "Youth";
+    font-weight: bold;
+    margin-top: 15%;
+    line-height: 100px;
+  }
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .letsbutton {
+    border-radius: 5px;
+    background: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Youth";
+    margin-top: 50%;
+  }
+
+  .letsbutton-outside {
+    display: none;
+  }
+
+  .letsbutton-wrapper {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 45%;
+  }
+
+  .letsntarsweet-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7vh;
+    font-family: "Youth";
+    position: relative;
+    z-index: 2;
+  }
+  .letsbutton-2 {
+    background-color: white;
+    font-family: "Youth_bold";
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 7px !important;
+    padding: 10px 3px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .create-custom {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-weight: 400;
+    font-size: 16px;
+    width: 55%;
+    font-family: "BananaGroteskRegular" !important;
+    color: black;
+    text-align: left;
+  }
+}

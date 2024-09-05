@@ -1,69 +1,32 @@
 import React from "react";
 import "./Home.css";
-import ntarGif from "../../assets/images/ntar.gif.gif";
-import mobileImage from "../../assets/images/mobile.gif.png";
-import Ntargif from "../../assets/images/ntar.gif.gif";
+import Shutter from "../../components/Shutter/Shutter.jsx";
+import Ntargif from "../../assets/images/ntar.gif.webp";
 import sectioncard1 from "../../assets/images/5sectioncard1.png";
 import treeicon from "../../assets/images/Tree.png";
-import manScrollingCoin from "../../assets/images/reversescroll.gif";
-import whitearrow from "../../assets/images/whitebackarrows.png";
+import manScrollingCoin from "../../assets/images/reversescroll-unscreen.gif";
 import coinsfloating from "../../assets/images/coinsfloating.gif";
-import orgphone from "../../assets/images/orgphone.png";
-
+// import orgphone from "../../assets/images/shutter.json";
+import sideImage from "../../assets/images/side.png";
+import yellside from "../../assets/images/yellowside.png";
+import anothermage from "../../assets/images/anothermage.png";
 import { finance_items } from "./JsonData";
-import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import Carousel from "../../components/Carousel/Carousel.jsx";
-import {features_list} from './JsonData.jsx'
+import { features_list } from "./JsonData.jsx";
+import Homebluecont from "../../components/Homebluecont/Homebluecont.jsx";
+import Headernew from "../../components/Headernew/Headernew.jsx";
 
 const Home = () => {
   return (
     <>
-      <Header />
-      <div className="home">
-        <div className="home__blue-container">
-          <div className="home__intro">
-            <p className="home__intro-text">
-              Your NTAR
-              <br />
-              story begins here!
-            </p>
-            <div className="home__ntar-section">
-              <div className="home__magicmoney-text">
-                <span className="home__magic-lets">Let's </span>
-                <img className="home__gif" src={ntarGif} alt="NTAR Animation" />
-                <span className="home__ntar-text">
-                  Ntar
-                  <br />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="home__mobile-image-container">
-            <img
-              className="home__mobile-image"
-              src={mobileImage}
-              alt="Mobile Display"
-            />
-          </div>
-          <div className="finance_container">
-            <span className="finance_header_text">
-              ONE APP,
-              <br />
-              TAKES YOU FURTHER{" "}
-            </span>
-            <span className="finance_description">
-              NTAR you can spend, save, shop and manage your finances from a
-              single platform.
-              <br />
-              Experience top-notch security and flexibility.
-            </span>
-            <div>
-              {/* <NewsSlider /> */}
-              <Carousel />
-            </div>
-          </div>
+      <div style={{ overflowX: "hidden" }}>
+        <div>
+          <Headernew />
         </div>
+        <div className="home">
+          <Homebluecont />
+        </div>
+
         <div className="payments_container">
           <div className="payments_sub">
             <span className="your_finance">
@@ -71,14 +34,23 @@ const Home = () => {
               <br />
               Your Fingertips
             </span>
+
+            <span className="your_finance_mob">
+              YOUR FINANACE AT
+              <br />
+              YOUR FINGERTIPS
+            </span>
             <div className="your_finance_container">
               {finance_items.map((each) => {
                 return (
-                  <div className="your_finance_item" id={each.title}>
-                    <img
+                  <div
+                    className="your_finance_item"
+                    id={each.title}
+                    key={each.title}
+                  >
+                    <div
                       className="your_finance_icon"
-                      src={each.icon}
-                      alt="Pay Bills"
+                      dangerouslySetInnerHTML={{ __html: each.icon }}
                     />
                     <div className="your_finance_sub_card">
                       <span className="your_finance_title">{each.title}</span>
@@ -91,60 +63,94 @@ const Home = () => {
               })}
             </div>
           </div>
-          <div className="scroll_image_container">
-            <img
-              className="manScrollingCoin"
-              src={manScrollingCoin}
-              alt="manScrollingCoin"
-            />
-            <span className="inside-img-text">NTAR Pay</span>
-          </div>
-          <button className="Explore">Explore</button>
+          <a
+            style={{ textDecoration: "none" }}
+            href="/Ntarpay"
+            className="web_explore_btn"
+          >
+            <button href="/Education" className="Explore">
+              Explore
+              <img className="explor-side" src={sideImage} alt="Girl" />
+            </button>
+          </a>
         </div>
-        <div className="payments_container mob_reverse_column">
-          <div className="container_with_explore">
-            <div className="scroll_image_container ">
-              <img
-                className="manScrollingCoinLeft"
-                src={manScrollingCoin}
-                alt="manScrollingCoin"
-              />
 
-              <span className="inside-img-text">NTAR Pay</span>
+        <div className="payments_container_down">
+          <div className="payments_container_down mob_reverse_column">
+            <div className="container_with_explore">
+              <div className="scroll_image_container ">
+                <img
+                  className="manScrollingCoinLeft"
+                  src={manScrollingCoin}
+                  alt="manScrollingCoin"
+                />
+              </div>
+              <a
+                style={{ textDecoration: "none", display: "contents" }}
+                href="/Ntarpay"
+              >
+                <button className="Explore mob_explore">
+                  Explore
+                  <img className="explor-side" src={sideImage} alt="Girl" />
+                </button>
+              </a>
             </div>
-            <button className="Explore mob_explore">Explore</button>
-          </div>
-          <div className="payments_sub">
-            <span className="your_finance">Perfect Features for You!</span>
-            <div className="your_finance_container">
-              {features_list.map((each) => {
-                return (
-                  <div className="your_finance_item" id={each.title}>
-                    <img
-                      className="your_finance_icon"
-                      src={each.icon}
-                      alt="Pay Bills"
-                    />
-                    <div className="your_finance_sub_card">
-                      <span className="your_finance_title">{each.title}</span>
-                      <span className="your_finance_sub_text">
-                        {each.subtext}
-                      </span>
-                    </div>
-                  </div>
-                );
-              })}
+            <div className="payments_container_down">
+              <div className="payments_sub_down">
+                <span className="your_finance_white">
+                  Perfect Features for You!
+                </span>
+                <span className="your_finance_mob_white">
+                  PERFECT FEATURES FOR YOU!
+                </span>
+                <div className="your_finance_container">
+                  {features_list.map((each) => {
+                    return (
+                      <div
+                        className="your_finance_item"
+                        id={each.title}
+                        key={each.title}
+                      >
+                        <div
+                          className="your_finance_icon"
+                          dangerouslySetInnerHTML={{ __html: each.icon }}
+                        />
+                        <div className="your_finance_sub_card">
+                          <span className="your_finance_title_white">
+                            {each.title}
+                          </span>
+                          <span className="your_finance_sub_text_white">
+                            {each.subtext}
+                          </span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
+
+            <a
+              style={{ textDecoration: "none" }}
+              href="/Ntarpay"
+              className="web_explore_btn"
+            >
+              <button className="Explore web_explore">
+                Explore
+                <img className="explor-side" src={sideImage} alt="Girl" />
+              </button>
+            </a>
           </div>
-          <button className="Explore web_explore">Explore</button>
         </div>
+
         <div className="contentboxwhite-5">
           <div className="section-5">
             <p className="moneygrow">
-              Money Doesn’t<br></br> grow on
+              Money Doesn’t<br></br> Grow On{"\n"}
               <img className="treeicon" src={treeicon} alt="Girl" />
-              trees.<br></br> it Grows on{" "}
-              <img className="ntarsmallgif" src={Ntargif} alt="Girl" /> NTAR
+              {"\n"}Trees.<br></br> It Grows on{"\n"}
+              <img className="ntarsmallgif" src={Ntargif} alt="Girl" />
+              {"\n"} NTAR
             </p>
             <div className="middle-align">
               <div className="section-cards">
@@ -186,46 +192,68 @@ const Home = () => {
           </div>
         </div>
         <div className="contentboxorange-6">
-          <div className="org-div">
-            <img className="orgphone" src={orgphone} alt="Girl" />
+          <Shutter>
             <div className="button-div">
+              <br></br>
               <p className="org-text">
-                Build your Business <br></br>on NTAR BIZZ
+                Build your Business<br></br>on
+                <br></br>
               </p>
             </div>
-          </div>
-          <div className="new-one">
-            <button className="letsbutton">
-              LET’S NTAR
-              <img className="whitearrow" src={whitearrow} alt="Girl" />
-            </button>
-          </div>
+          </Shutter>
+
+          <div className="org-div"></div>
+
+          {/* <div className="new-one">
+              <a
+                style={{ textDecoration: "none", color: "black" }}
+                href="https://play.google.com/store/apps/details?id=com.NTAR&pcampaignid=web_share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="letsbutton-outside">
+                  LET’S NTAR
+                  <img className="whitearrow" src={whitearrow} alt="Arrow" />
+                </button>
+              </a>
+            </div> */}
         </div>
         <div className="contentboxblack-7">
           <div className="ntar-begins2">
             <div className="money-div">
-              <p className="money">Money </p>
-              <img className="gif-yellow" src={Ntargif} alt="Girl" />
-              <p className="magic">
-                Magic.
-                <br />
-              </p>
+              <p className="money">Money Magic</p>
+
               <br></br>
             </div>
           </div>
-          <p className="ntarway">NTAR this way.</p>
-          <div className="letsntarsweet-div">
-            <button className="letsbutton-2">
-              LET’S NTAR
-              <img className="whitearrow" src={whitearrow} alt="Girl" />
-            </button>
-          </div>
+          <p className="ntarway"> NTAR this way</p>
           <div className="black-w-gif">
             <img className="float-gif" src={coinsfloating} alt="Girl" />
           </div>
+          <div className="letsntarsweet-div">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.NTAR&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <button className="letsbutton-2">
+                LET’S NTAR
+                <img className="whitearrow" src={yellside} alt="Girl" />
+              </button>
+            </a>
+          </div>
         </div>
-
-        <Footer />
+        <div
+          style={{
+            position: "relative",
+            zIndex: "2",
+            paddingTop: "20px",
+            backgroundColor: "black",
+          }}
+        >
+          <Footer />
+        </div>
       </div>
 
       {/* footer */}

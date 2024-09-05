@@ -1,0 +1,188 @@
+.home__blue-container {
+  background-color: #5423e7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* margin-top: -62px; */
+}
+
+/* Intro text styling */
+.home__intro-text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Youth";
+  line-height: 53px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* Section for NTAR content */
+.home__ntar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -7%;
+  font-family: "Youth";
+}
+
+/* Magic money text section */
+.home__magicmoney-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for "Let's" text */
+.home__magic-lets {
+  text-align: center;
+  color: white;
+  font-size: 138px;
+  margin-right: -5%;
+  font-weight: bold;
+  font-family: "Youth";
+  line-height: 167px;
+}
+
+/* Styling for the gif image */
+.home__gif {
+  width: 269px;
+  object-fit: contain;
+}
+
+/* Styling for the NTAR text */
+.home__ntar-text {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+  font-size: 138px;
+  font-weight: bold;
+  margin-left: -5%;
+  font-family: "Youth";
+}
+
+/* Container for the mobile image */
+.home__mobile-image-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0%;
+}
+
+/* Styling for the mobile image */
+.home__mobile-image-web-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -13%;
+}
+.home__mobile-image-mobile-image {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home__intro-text {
+    font-size: 21px;
+    line-height: 26px;
+    margin-top: 100px;
+  }
+  .home__magic-lets {
+    font-size: 50px;
+    line-height: 78px;
+  }
+
+  .home__ntar-text {
+    font-size: 50px;
+    line-height: 78px;
+  }
+  .home__gif {
+    width: 130px;
+    object-fit: contain;
+  }
+
+  .magicmoney-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+  }
+
+  .magic-lets,
+  .Ntar {
+    font-size: 50px;
+    margin: -20px;
+  }
+  .card-image-con {
+    display: block;
+    width: 150%; /* Default width to ensure it fits within the container */
+    max-width: 150%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: -35%;
+  }
+  .gif2-yellow {
+    width: 40%;
+  }
+
+  .ntar-begins2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .oneapp-text {
+    font-size: 34px;
+    font-weight: bolder;
+  }
+
+  .longtext {
+    font-size: 13px;
+  }
+  .home__mobile-image-web-image {
+    display: none;
+    width: 150%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
+  }
+
+  .home__mobile-image-mobile-image {
+    display: block;
+    width: 180%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25%;
+  }
+
+  .bluebox-text {
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 10vh;
+  }
+
+  .web-br {
+    display: none;
+  }
+
+  .blue-mobile-imge {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+  }
+}

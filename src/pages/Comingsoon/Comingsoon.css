@@ -1,0 +1,261 @@
+.Black_Content {
+  background: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lef-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 200px;
+}
+
+.hello {
+  font-size: 20px;
+  line-height: 50.01px;
+  margin-bottom: 20px;
+  font-family: "Youth";
+  color: white;
+}
+
+.lef-section h1 {
+  font-size: 40px;
+  line-height: 50.01px;
+  margin-bottom: 20px;
+  font-family: "Youth_bold";
+  color: white;
+}
+
+.search-container_hi {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 5px 15px;
+  max-width: 370px;
+  color: #c1c1c1;
+  background: #eeeeee;
+  width: 80%;
+}
+
+.search-container_hi input {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  max-width: 380px;
+  color: #c1c1c1;
+  background: #eeeeee;
+  width: 80%;
+}
+
+.notify_me {
+  border-radius: 3px;
+  width: 25%;
+}
+
+.search-container_hi .search-btn_hi {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.worry {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.total_img_div {
+  width: 100%;
+}
+.side_bg_img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .Black_Content {
+    background: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .lef-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+  }
+
+  .hello {
+    font-size: 20px;
+    line-height: 50.01px;
+    margin-bottom: 20px;
+    font-family: "Youth";
+    color: white;
+  }
+
+  .lef-section h1 {
+    font-size: 35px;
+    line-height: 40.01px;
+    margin-bottom: 20px;
+    font-family: "Youth_bold";
+    color: white;
+  }
+
+  .search-container_hi {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 5px 15px;
+    max-width: 370px;
+    color: #c1c1c1;
+    background: #eeeeee;
+    width: 100%;
+  }
+
+  .search-container_hi input {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    max-width: 380px;
+    color: #c1c1c1;
+    background: #eeeeee;
+  }
+
+  .notify_me {
+    border-radius: 3px;
+    width: 25%;
+    font-size: 13px;
+    font-family: "Youth_bold";
+    height: 30px;
+  }
+
+  .search-container_hi .search-btn_hi {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .worry {
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .total_img_div {
+    width: 100%;
+  }
+  .side_bg_img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .Black_Content {
+    background: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .lef-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .hello {
+    font-size: 20px;
+    line-height: 50.01px;
+    margin-bottom: 20px;
+    font-family: "Youth";
+    color: white;
+  }
+
+  .lef-section h1 {
+    font-size: 40px;
+    line-height: 50.01px;
+    margin-bottom: 20px;
+    font-family: "Youth_bold";
+    color: white;
+  }
+
+  .search-container_hi {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 5px 15px;
+    max-width: 370px;
+    color: #c1c1c1;
+    background: #eeeeee;
+    width: 100%;
+  }
+
+  .search-container_hi input {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    max-width: 380px;
+    color: #c1c1c1;
+    background: #eeeeee;
+    width: 80%;
+  }
+
+  .notify_me {
+    border-radius: 3px;
+    width: 25%;
+  }
+
+  .search-container_hi .search-btn_hi {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .worry {
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .total_img_div {
+    width: 100%;
+  }
+  .side_bg_img {
+    width: 100%;
+  }
+}

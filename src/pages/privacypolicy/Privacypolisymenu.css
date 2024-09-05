@@ -1,0 +1,241 @@
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.browse-through {
+  font-size: 16px;
+  font-family: "Youth";
+}
+
+/* Privacy Policy Section */
+.privacy-policy {
+  background-color: #5423E7;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.support-center p {
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 13px;
+  width: 420px;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box {
+  color: black;
+  text-decoration: none;
+}
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #f9e400;
+  border: none;
+  cursor: pointer;
+  font-family: "Youth_bold";
+  font-size: 14px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.popular {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  margin-left: -11%;
+  font-family: "Youth";
+  letter-spacing: 2px;
+}
+.popular-queries a {
+  color: #ffffff;
+  margin: 0 6px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* Help Center Section */
+.help-center {
+  background-color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.help-center h2 {
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: "Youth";
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* .help-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+} */
+.icon_size {
+  width: 9%;
+  margin-top: -10px;
+}
+
+.small_cards {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.help-cards {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns with equal width */
+  gap: 25px; 
+}
+
+.help-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+.help-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.help-card p {
+  margin-top: auto;
+  font-size: 12px;
+  color: #555;
+  font-family: "BananaGroteskRegular";
+}
+
+/* Chat Support Section */
+.chat-support {
+  background-color: #3717df;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support {
+  max-width: 100%; /* Ensures image never exceeds the width of its container */
+  height: auto; /* Maintains aspect ratio of the image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.chat-button {
+  background-color: #ffc300;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.chat-button:hover {
+  background-color: #e6b800;
+}
+
+.chat-button::before {
+  margin-right: 10px;
+}
+.box {
+  color: black;
+  text-decoration: none;
+}
+
+/* Footer styles can be added in your Footer component */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .help-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+
+  .popular {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    margin-left: -1%;
+    font-family: "Youth";
+    letter-spacing: 2px;
+  }
+  .box {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .privacy-policy h1 {
+    font-size: 28px;
+  }
+
+  .help-card {
+    width: 100%;
+  }
+  .icon_size {
+    width: 9%;
+    margin-top: -10px;
+  }
+
+  .small_cards {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .popular {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    margin-left: -1%;
+    font-family: "Youth";
+  }
+  .box {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+  .help-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
+  }
+}

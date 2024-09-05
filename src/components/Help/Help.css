@@ -1,0 +1,125 @@
+.abouthe_help__blue-container-contact {
+  background-color: #5423E7;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 28px;
+  flex-direction: row;
+}
+
+.still_heading {
+  font-family: "Youth_bold";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 38.36px;
+  text-align: left;
+  color: white;
+}
+
+.still_Sub_text {
+  font-family: "Youth";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: center;
+  color: white;
+  width: 85%;
+  text-align: left;
+}
+
+.help_button {
+  background: #f9e400;
+  color: black;
+  font-family: "Youth";
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  font-weight:bold;
+  align-items: center;
+}
+
+.Help_button_div {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.Help_button_div a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .abouthe_help__blue-container-contact {
+    width: 90%;
+    height: auto;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    padding: 30px;
+  }
+
+  .still_heading {
+    font-size: 22px;
+    text-align: center; /* Center heading text */
+  }
+
+  .still_Sub_text {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%; /* Adjust width to fit the container */
+  }
+
+  .help_button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .abouthe_help__blue-container-contact {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .still_heading {
+    font-size: 20px;
+  }
+
+  .still_Sub_text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .help_button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .abouthe_help__blue-container-contact {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .still_heading {
+    font-size: 18px;
+  }
+
+  .still_Sub_text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .help_button {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

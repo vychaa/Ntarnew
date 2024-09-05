@@ -1,0 +1,671 @@
+.home__blue-container-contact {
+  background-color: #5423e7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Not_just_word {
+  font-family: "Youth";
+  font-size: 60px;
+  line-height: 105.6px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.Not_just_sub_text {
+  font-family: "Youth";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.62px;
+  text-align: center;
+  color: white;
+  width: 45%;
+}
+
+.aboutus_hand_img {
+  width: 592px;
+  object-fit: contain;
+}
+
+/* section-2-css */
+.about__sec-white-container-contact {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Welcome_heading {
+  font-family: "Youth_bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.36px;
+  text-align: left;
+  color: black;
+}
+
+.welcome_Sub_text {
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: center;
+  color: black;
+  width: 80%;
+  text-align: left;
+  text-align: justify;
+}
+
+.About__gif {
+  width: 672px;
+  object-fit: contain;
+  height: 400px;
+}
+
+.about_sec-white-row_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*section-3*/
+.origin_Sub_text {
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: left;
+  color: black;
+  text-align: justify;
+  width: 90%;
+}
+
+.origin__anim {
+  width: 300px;
+  object-fit: contain;
+}
+
+.about_third-white-row_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.about_third-white-row_div_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* Fourth */
+
+.about__sec-blue-container-contact {
+  background-color: #5423e7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.about_fourth-white-row_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vision_heading {
+  font-family: "Youth_bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.36px;
+  text-align: left;
+  color: white;
+}
+
+.vision_Sub_text {
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: left;
+  color: white;
+  width: 80%;
+  text-align: justify;
+}
+
+.med-one {
+  text-decoration: none;
+  color: black;
+}
+
+/* fifth */
+
+.about__fifth-blue-container-contact {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.meet_heading {
+  font-family: "Youth_bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.36px;
+  text-align: left;
+  color: black;
+}
+
+.meet_Sub_text {
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: left;
+  color: black;
+  width: 80%;
+  text-align: justify;
+}
+
+/* sixth */
+
+.product_Sub_text {
+  font-family: "Youth";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38.86px;
+  text-align: left;
+  color: black;
+  width: 90%;
+  text-align: justify;
+}
+
+/* seventh */
+
+.headoffice_heading {
+  font-family: "Youth_bold";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.36px;
+  text-align: left;
+  color: black;
+}
+.map_image {
+  width: 562px;
+  object-fit: contain;
+}
+
+.map_help__blue-container-contact {
+  background-color: #5423e7;
+  width: 562px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 1px;
+  flex-direction: row;
+}
+
+.map_address {
+  font-size: 28px;
+  font-family: "Youth";
+  line-height: 38.86px;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.footer-social-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-link {
+  color: white;
+  margin-bottom: 10px; /* Adds gap between each link */
+  text-decoration: none; /* Removes underline from links */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.social-icon {
+  margin-right: 10px; /* Adds gap between image and text */
+  width: 40px;
+}
+
+.social-text {
+  color: black;
+  font-size: 16px;
+}
+
+.head_office_container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.media-two {
+  margin-right: 50px;
+  font-size: 25px;
+}
+.each_card_mar {
+  margin-left: 70px;
+}
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .Not_just_word {
+    font-size: 48px;
+    line-height: 57.6px;
+    margin-top: 50px;
+  }
+
+  .each_card_mar {
+    margin-left: 0px;
+  }
+
+  .Not_just_sub_text {
+    font-size: 24px;
+    line-height: 31.62px;
+    /* text-align: justify; */
+    width: 100%;
+  }
+
+  .aboutus_hand_img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .med-one {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* section-2 */
+  .about__sec-white-container-contact {
+    padding: 20px;
+  }
+
+  .map_image {
+    width: 90%; /* Further adjust width on smaller screens */
+  }
+
+  .Welcome_heading {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .welcome_Sub_text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .About__gif {
+    width: 100%;
+    height: 250px;
+  }
+
+  .about_sec-white-row_div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*  third*/
+
+  .origin_Sub_text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .origin__anim {
+    width: 100%;
+  }
+
+  .about_third-white-row_div {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about_third-white-row_div_2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /* fourth */
+
+  .about__sec-blue-container-contact {
+    padding: 20px;
+  }
+
+  .about_fourth-white-row_div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vision_heading {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .vision_Sub_text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* fifth */
+
+  .about__fifth-blue-container-contact {
+    padding: 20px;
+  }
+
+  .meet_heading {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .meet_Sub_text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* sixth */
+  .product_Sub_text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  /* seventh */
+  .map_help__blue-container-contact {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .map_address {
+    font-size: 24px;
+  }
+}
+
+.map_address {
+  font-size: 28px;
+  font-family: "Youth";
+  line-height: 38.86px;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* Responsive Styles for .footer-social-column */
+.footer-social-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-link {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* seventh */
+
+.map_help__blue-container-contact {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.map_address {
+  font-size: 24px;
+}
+
+.map_address {
+  font-size: 28px;
+  font-family: "Youth";
+  line-height: 38.86px;
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* Responsive Styles for .footer-social-column */
+.footer-social-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.social-link {
+  justify-content: center; /* Center links on smaller screens */
+}
+
+.social-icon {
+  /* margin-left: 171px;
+  width: 20px;
+  position: absolute; */
+  margin-left: 100px;
+  width: 23px;
+  position: absolute;
+  margin-top: 6px;
+}
+
+.social-text {
+  color: black;
+  font-size: 16px;
+  text-align: left;
+}
+
+.head_office_container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+@media screen and (max-width: 480px) {
+  .Not_just_word {
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-top: 30px;
+  }
+  .map_image {
+    width: 100%;
+  }
+  .Not_just_sub_text {
+    font-size: 18px;
+    line-height: 24.62px;
+    width: 100%;
+  }
+
+  /* section-2 */
+  .aboutus_hand_img {
+    max-width: 250px;
+    margin-top: 15px;
+  }
+
+  .Welcome_heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .welcome_Sub_text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .About__gif {
+    width: 90%;
+    object-fit: cover;
+    height: 250px;
+  }
+
+  /* third */
+
+  .origin_Sub_text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .origin__anim {
+    width: 90%;
+  }
+
+  /* fourth */
+
+  .vision_heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .vision_Sub_text {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  /* fifth */
+  .med-one {
+    text-decoration: none;
+    color: black;
+  }
+  .meet_heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .meet_Sub_text {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  /* sixth */
+
+  .product_Sub_text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .headoffice_heading {
+    font-family: "Youth_bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.36px;
+    text-align: center;
+    color: black;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* seventh maps */
+  .map_help__blue-container-contact {
+    width: 100%;
+    height: auto;
+    flex-direction: column; /* Stack elements vertically */
+    padding: 15px;
+  }
+
+  .med-one {
+    text-decoration: none;
+    color: black;
+  }
+
+  .map_address {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .head_office_container {
+    flex-direction: column;
+    gap: 30px; /* Adjust gap for better spacing on smaller screens */
+    align-items: center;
+  }
+
+  .map_image {
+    width: 100%; /* Adjust width to be a percentage of the container */
+  }
+}
+
+@media (min-width: 1541px) {
+  .about__sec-white-container-contact {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product_Sub_text {
+    font-family: "Youth";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38.86px;
+    text-align: left;
+    color: black;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .about_third-white-row_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: -20%;
+  }
+}

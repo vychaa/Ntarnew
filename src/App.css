@@ -22,14 +22,14 @@
   font-style: normal; 
 } */
 
-#root {
+/* #root {
   margin: 0 auto;
   padding: 0px;
   text-align: center;
   box-sizing: border-box;
   font-family: "Youth";
   color: "#fff";
-}
+} */
 
 /* @font-face {
   font-family: "Youth";
@@ -47,9 +47,17 @@
 }
 
 @font-face {
+  font-family: "YouthThin";
+  src: local("YouthBold"),
+    url("./assets/fonts/AllCaps\ -\ Youth\ Thin.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "BananaGroteskRegular";
   src: local("BananaGroteskRegular"),
-       url("./assets/fonts/banana-grotesk-regular.otf") format("opentype");
-  font-weight: normal; 
-  font-style: normal;  
+    url("./assets/fonts/banana-grotesk-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 } */

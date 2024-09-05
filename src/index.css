@@ -1,20 +1,110 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap");
+/* @font-face {
+  font-family: "Youth";
+  src: url("@fonts/Youth.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'Youth';
-    src: url('@fonts/Youth.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'youth_bold';
-    src: url('@fonts/youth_bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "youth_bold";
+  src: url("@fonts/youth_bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "youth_Thin";
+  src: url("./assets/fonts/Youth Thin.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BananaGroteskRegular";
+  src: url("./assets/fonts/banana-grotesk-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  font-family: "Youth", sans-serif;
+  font-family: "Youth";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Youth";
+  color: "#fff";
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Youth:wght@400;700&display=swap");
+@font-face {
+  font-family: "Youth";
+  src: url("./assets/Fonts/Youth.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "youth_bold";
+  src: url("./assets/Fonts/youth_bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YouthThin";
+  src: url("./assets/fonts/AllCaps - Youth Thin.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "YouthThin";
+  src: url("./assets/Fonts/YouthThin.woff2") format("woff2"),
+    url("./assets/Fonts/YouthThin.woff") format("woff"),
+    url("./assets/Fonts/YouthThin.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "BananaGroteskRegular";
+  src: url("./assets/Fonts/banana-grotesk-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "banana-grotesk-light";
+  src: url("./assets/Fonts/banana-grotesk-light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Youth";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Youth";
+  color: "#fff";
+}
+
+body {
+  font-family: "YouthThin";
+  font-weight: normal; /* or appropriate weight if you specified a different one */
+}
+
+body {
+  background: none;
 }
